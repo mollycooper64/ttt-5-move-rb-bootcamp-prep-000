@@ -4,7 +4,7 @@ require_relative '../lib/move.rb'
 
 #1. Our program should first welcome the player by outputting a friendly message to the terminal: "Welcome to Tic Tac Toe!".
 puts "Welcome to Tic Tac Toe!"
-#2. Next, establish the starting state of the game, i.e. the empty board. Create a new board by setting a variable `board` equal to instantiating a new array with 9 elements, each of which is a blank space, `" "`.  
+#2. Next, establish the starting state of the game, i.e. the empty board. Create a new board by setting a variable `board` equal to instantiating a new array with 9 elements, each of which is a blank space, `" "`.
 board = [" "," "," "," "," "," "," "," "," "]
 #3. Now, ask the user for input by outputting "Where would you like to go?" to the terminal.
 puts "Where would you like to go?"
@@ -16,7 +16,3 @@ index = input_to_index(input)
 move(board, index, character="X")
 #7. Lastly, display the board by calling the `#display_board` method, passing in the necessary arguments required to run this method.
 display_board(board,)
-
-
-
-
